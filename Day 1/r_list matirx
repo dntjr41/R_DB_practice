@@ -1,0 +1,41 @@
+my1<-list("Á¤ÈÆÈñ", "ÇÁ¸®·£¼­", "¼­¿ï", 1.2)
+my1
+myfavorit<-list("friend="hong", mynum=7, myalpha="z")
+myfavorit<-list(friend=hong', mynum=7, myalpha='z')
+myfavorit<-list(friend='hong', mynum=7, myalpha='z')
+my
+myfavorit
+myfavorit$myalpha
+myfavorit$mynum-2
+myfavorit$mysong<-'hello'
+myfavorit
+myfavorit$myfood<-c('chicken','pizza','pasta','kimchi')
+myfavorit
+age<-matrix(c(25,33,32,37,27,36),nrow=2,ncol=3)
+age
+age<-matrix(c(25,33,32,37,27,36),ncol=3, byrow=TRUE)
+age
+info<-matrix(c('177cm
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg', ncol=2, byrow=TRUE)
+)
+info
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg', ncol=2, byrow=TRUE))
+info
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg', nrow=2, byrow=TRUE))
+info
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg') nrow=2, byrow=TRUE))
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg') nrow=2, byrow=TRUE)
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg'), nrow=2, byrow=TRUE)
+info
+info<-matrix(c('177cm','68kg','156cm','57kg','160cm','48kg','175cm','60kg'), ncol=2, byrow=TRUE)
+info
+dimnames(info)<-list(c('No1','No2','No3','No4'), c('height','weight'))
+info
+cbind(info, c('male','male','female','female'))
+info
+info<-cbind(info, c('male','male','female','female'))
+info
+a1<-c('180cm','70kg','male')
+a2<-c('185cm','68kg','male')
+info<-rbind(info, a1, a2)
+info
