@@ -1,0 +1,42 @@
+#scan사용
+setwd("C:\\Users\\LG\\R workspace\\Day 3")
+a<-scan("irum.txt",what='char',sep=",")
+a
+x<-scan()
+x
+#readLines함수
+data<-readLines("consumer.txt")
+data
+#read.csv 함수
+data<-read.csv('seoulpopulation.csv', header=TRUE)
+data
+install.packages("XLConnect")
+require(XLConnect)
+wb<-loadWorkbook("subway.xlsx")
+df<-readWorksheet(wb,sheet=1,header=TRUE)
+df
+names(df)<-c("구분","역이름","1월이용자","2월이용자","3월이용자","합","1일평균")
+df
+wb<-loadWorkbook("subway.xlsx")
+df<-readWorksheet(wb,sheet=1,header=TRUE,startrow=20,endrow=47)
+df
+#XLSX패키지
+install.packages("xlsx")
+require(xlsx)
+df2<-read.xlsx("subway.xlsx",1)
+df2
+install.packages("xlsx")
+require(xlsx)
+df2<-read.xlsx2("subway.xlsx",1)
+df2
+df2<-read.xlsx2("subway.xlsx",1)
+df2
+df2<-read.xlsx2('subway.xlsx',1)
+df2
+install.packages("xlsx")
+require(xlsx)
+a<-readClipboard()
+a
+a<-readClipboard()
+a
+df<-read.table(file="clipboard",sep="\t",header=TRUE)
