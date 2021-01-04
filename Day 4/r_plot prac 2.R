@@ -1,0 +1,11 @@
+plot.new()
+y1<-c(0.8,0.5,0.4,0.4,0.5,0.7)
+y2<-c(0.8,1.3,1.0,1.3,0.9,1.2)
+x<-c(1:6)
+par(new=TRUE)
+plot(x,y1,ylab="¼ÒºñÀÚ¹°°¡»ó½Â·ü",type="c",col="red",ylim=c(0.3,1.5))
+par(new=TRUE)
+plot(x,y2,ltype="dotted",ylab="¼ÒºñÀÚ¹°°¡»ó½Â·ü",type="c",col="blue",ylim=c(0.3,1.5))
+par(new=TRUE)
+legend(locator(1),legend=c('2015³â','2016³â'),lty=1,bg="yellow",col=c('red','blue'))
+
